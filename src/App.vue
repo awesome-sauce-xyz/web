@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Header/>
+    <AppHeader/>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import AppHeader from '@/components/AppHeader'
 
 export default {
   name: 'app',
   components: {
-    Header
+    AppHeader
   }
 }
 </script>
@@ -26,5 +26,8 @@ export default {
   color: #2c3e50;
   margin: 0 auto;
   max-width: 768px;
+}
+a {
+  text-decoration: none;
 }
 </style>

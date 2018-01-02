@@ -1,8 +1,8 @@
 <template>
   <div class="header">
-    <h2 class="header-text">Awesome Sauce</h2>
+    <router-link to="/"><h2 class="header-text">Awesome Sauce</h2></router-link>
     <nav>
-      <div><a href="/about">About</a></div>
+      <div><router-link to="/about">About</router-link></div>
     </nav>
   </div>
 </template>
@@ -17,5 +17,4 @@
     justify-content: space-between;
     align-items: center;
   }
-  
 </style>
