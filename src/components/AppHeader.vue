@@ -6,10 +6,9 @@
       router-link(to='/about') About
 </template>
 
-<style scoped>
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<style lang='sass' scoped>
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
 </style>
