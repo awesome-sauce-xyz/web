@@ -1,9 +1,7 @@
-<template>
-  <div id="app">
-    <AppHeader/>
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+<template lang='pug'>
+  #app
+    AppHeader
+    router-view
 </template>
 
 <script>
